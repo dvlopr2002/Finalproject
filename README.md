@@ -18,26 +18,6 @@ This is a website for promoting and providing information about various types of
 - **JavaScript**: For adding interactivity and dynamic behavior.
 - **AOS (Animate On Scroll)**: For adding smooth scroll animations to the website elements.
 
-## Installation
-
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/fertilizer-website.git
-    ```
-
-2. Navigate to the project directory:
-    ```bash
-    cd fertilizer-website
-    ```
-
-3. Open `index.html` in your web browser to view the website.
-
-## Usage
-
-- Navigate through the website to learn about different types of fertilizers.
-- Scroll down to see the smooth animations powered by AOS.
-- Interact with various elements to explore more features.
-
 
 ## Acknowledgements
 
@@ -48,4 +28,5 @@ This is a website for promoting and providing information about various types of
 
 If you have any questions or need further assistance, feel free to reach out:
 
-- **Email**: youremail@example.com
+- **Email**: tamalmandal712@gmail.com
+  
