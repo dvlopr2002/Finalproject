@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- external Css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- topbar end-->
+        <section class="topbar common-padding">
+            <div class="container">
+                <div class="topbar-left-right-container d-flex jc-between align-items-center">
+                    <div class="topbar-left">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="#"> <i class="fa-solid fa-paper-plane"></i> No.28 Church Cres St, North Labone,
+                                    Accra, Ghana</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-check-to-slot"></i> sales@agrikon.com</a></li>
+                            <li><a href="#"> <i class="fa-solid fa-phone"></i> +233 302 767 300</a></li>
+                        </ul>
+                    </div>
+                    <div class="topbar-right d-flex">
+                        <span><a href="https://www.facebook.com"><i class=" fa-brands fa-facebook-f"></i>
+                            </a></span>
+                        <span><a href="https://gh.linkedin.com"><i class=" fa-brands
+                                fa-linkedin-in"></i></a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- topbar end -->
+
+        <!-- navbar start -->
+        <nav class="navbar common-padding">
+            <div class="container">
+                <div class="nav-content-main d-flex jc-between align-items-center">
+                    <div class="logo-part d-flex jc-between align-items-center">
+                        <div class="logo">
+                            <figure>
+                                <a href="home.html"> <img src="./images/logoimg.png" alt="this is the logo images"
+                                        loading="lazy"></a>
+                            </figure>
+                        </div>
+                        <div class="toggler">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="nav-menu d-flex d-flex align-items-center">
+                        <ul class="d-flex align-items-center
+                        ">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html" class="active">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-icon-container">
+                        <div class="nav-icon">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <div class="shopping-number">1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
+    </header>
+
+    <!-- contact banner -->
+    <section class="contact-banner common-padding">
+        <div class="container">
+            <div class="contact-content-main">
+                <div class="contact-text" data-aos="fade-up">
+                    <h2>Contact Us</h2>
+                    <div class="contact-links">
+                        <a class="cnt-home" href="home.html">Home</a>
+                        <a class="cnt-cnt" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- loacation -->
+    <section class="location common-padding">
+        <div class="container">
+            <div class="our-location-container d-flex">
+                <div class="our-location-content">
+                    <i class="fa-regular fa-envelope-open"></i>
+                    <h3 class="">Email Address</h3>
+                    <p>sales@agrikon.com</p>
+                </div>
+
+                <div class="our-location-content">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3 class="">Main Offices</h3>
+                    <p>No.28 Church Cres St, <br>
+                        North Labone, <br>
+                        Accra, Ghana
+                    </p>
+                </div>
+
+
+                <div class="our-location-content">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3 class="">Phone Number</h3>
+                    <p>+233 302 767 300</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="message">
+        <div class="message-left-right-container d-flex">
+            <figure class="message-left-part" data-aos="fade-right">
+                <img src="./images/messageimg.jpg" alt="">
+
+            </figure>
+            <div class="message-right-part" data-aos="fade-left">
+                <p class="toch">Get In Touch</p>
+                <h3>Send Us A Message</h3>
+                <form action="" onsubmit="return  ValidateForm() ">
+                    <div class="fullname_email_container">
+
+                        <input type="text" placeholder="Full Name Here" id="full_name">
+                        <p id="full_name_error" class="error1"></p>
+
+                        <input type="email" placeholder="Enter Your Email" id="e_mail">
+                        <p id="e_mail_error" class="error2"></p>
+                    </div>
+
+                    <div class="subject_container">
+                        <input type="text" placeholder="Subject" id="subject">
+                        <p id="subject_error" class="error3"></p>
+                    </div>
+
+                    <textarea name="" id="" placeholder="Write Message"></textarea>
+                    <button>Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.005940278517!2d-0.17376072525487934!3d5.566134994414363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a994b683843%3A0x5d0bd907a558bb2e!2sChurch%20Cres%20St%2C%20Accra%2C%20Ghana!5e0!3m2!1sen!2sin!4v1722524967186!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer class="common-padding">
+        <div class="container">
+            <div class="footer-content-container d-flex">
+                <div class="footer-content">
+                    <div class="footer-heading">
+                        <figure>
+                            <a href="home.html"><img src="./images/logoimg.png" alt=""></a>
+                        </figure>
+                    </div>
+                    <div class="footer-text">
+                        <p>Agrikon is a wholly owned <br> indigenous Ghanaian company <br> focusing on improving the
+                            crop <br>
+                            production of Africa</p>
+                    </div>
+                </div>
+
+
+
+                <div class="footer-content">
+                    <div class="footer-heading">
+                        <p>Quick Links</p>
+                    </div>
+                    <ul class="footer-menu">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="footer-content">
+                    <div class="footer-heading">
+                        <p>Latest Posts</p>
+                    </div>
+                    <div class="post-container d-flex">
+                        <figure>
+                            <img src="./images/posts-1.png" alt="footer latest post img">
+                        </figure>
+                        <div class="footer-post-right">
+                            <p>Press Statement <br> Agrikon</p>
+                            <span><i class="fa-solid fa-calendar-days"></i> September 23, 2023</span>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container d-flex">
+                        <figure>
+                            <img src="./images/post-2.png" alt="footer latest post img" loading="lazy">
+                        </figure>
+                        <div class="footer-post-right">
+                            <p>Agrikon Press Release <br> Farmers Day 2017</p>
+                            <span><i class="fa-solid fa-calendar-days"></i> September 23, 2023</span>
+                        </div>
+                    </div>
+
+
+                    <div class="post-container d-flex">
+                        <figure>
+                            <img src="./images/post-3.png" alt="footer latest post img">
+                        </figure>
+                        <div class="footer-post-right">
+                            <p>Agricultur and <br> Goverment</p>
+                            <span><i class="fa-solid fa-calendar-days"></i> September 23, 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-heading">
+                        <p>Newsletter</p>
+                    </div>
+                    <form action="">
+                        <div class="email-container">
+                            <input type="email" placeholder="Enter Your Email" class="e_mail">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <input type="submit" value="subscribe now">
+                    </form>
+
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-heading">
+                        <p>Follow Us</p>
+                    </div>
+                    <span> <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></span>
+                    <span> <a href="https://gh.linkedin.com/company"><i class="fa-brands fa-linkedin-in"></i></a></span>
+                </div>
+            </div>
+            <div class="copy-right text-center">
+                <p>Copyright ©2023 Agrikon. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- External Js -->
+    <script src="./js/script.js"></script>
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
